@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://upload.wikimedia.org/wikipedia/commons/e/e4/Latte_and_dark_coffee.jpg);
+  background-size: cover;
+  background-position: center;
+}
+h2{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://upload.wikimedia.org/wikipedia/commons/e/e4/Latte_and_dark_coffee.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  color: #fff;
+}
+#img-gal{
+  height: 360px;
+}
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 75px;
+  margin-left: 0;
+  cursor: pointer;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.content{
+  width: 100;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 150px;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+  transform: translateY(-50%);
+  position: absolute;
+  color: #fff;
+  width: 100;
+  top: 150%;
+  
+}
+.container ul {
+  margin-bottom: 100px;
+  margin-left: 400px;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 100;
+  text-align: center;
+  justify-content: center;
+}
+.containerr {
+  transform: translateY(-50%);
+  position: absolute;
+  color: #fff;
+  width: 100;
+  top: 250%;
+}
+.containerr {
+  margin-top: 0;
+  margin-bottom: 100px;
+  margin-left: 355px;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: 100;
+  text-align: center;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+}
